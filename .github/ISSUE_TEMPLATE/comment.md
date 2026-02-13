@@ -1,27 +1,22 @@
-# Request for comments
+---
+name: Comment
+about: Propose a community-facing change or feature for Minttu
+labels: comment, architecture, needs discussion
+---
+
+# Comment
 
 <!--
-This template helps create proposals for community-facing changes and features.
-For underlying technical architecture and tooling decisions, use the
-architecture decision record template instead.
+Use this template to propose community-facing changes and features for Minttu.
+After creating this issue, draft your full proposal using templates/comment.md.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/rfcs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
 
 ### Title
 <!-- A clear, descriptive title for the proposal -->
-
-### Number
-<!-- Sequential number: RFC-0001, RFC-0002, etc. -->
-
-### Status
-- [ ] Draft (initial proposal)
-- [ ] Under discussion (community review)
-- [ ] Accepted (approved for implementation)
-- [ ] Rejected (not approved)
-- [ ] Superseded (replaced by another proposal)
 
 ### Category
 - [ ] Public interfaces (contracts and boundaries)
@@ -47,7 +42,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 ---
 
-## Executive summary
+## Summary
 
 ### Proposal
 <!-- One paragraph summary -->
@@ -57,50 +52,43 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 ---
 
-## Problem statement
+## Impact
 
-### Current situation
-<!-- Describe the existing state and its limitations -->
+### Who is affected?
+<!-- Who will be affected and how? -->
 
-### Success criteria
-- [ ] <!-- Success criterion 1 -->
-- [ ] <!-- Success criterion 2 -->
+### Migration considerations
+<!-- Will existing setups need to change? -->
 
 ---
 
-## Detailed design
+## Proposed design
 
 ### Overview
 <!-- High-level description of the proposed solution -->
 
-### Public specification
-<!-- Interfaces, CSS custom property naming, component markup patterns -->
-
----
-
-## Prior art and alternatives
-
-### Research
-<!-- How do other design systems handle this? -->
-
----
-
-## Community impact
-
-### Migration path
-<!-- How will existing setups transition? -->
-
----
-
-## Open questions
-- [ ] <!-- Question 1 -->
-- [ ] <!-- Question 2 -->
+### Alternatives considered
+<!-- Briefly list other approaches -->
 
 ---
 
 ## Discussion
 
+### Open questions
+- <!-- Question 1 -->
+- <!-- Question 2 -->
+
+### Discussion period
 **Proposed duration**: <!-- minimum 14 days -->
+
+---
+
+## Next steps
+
+- [ ] Draft full proposal in `comments/XXXX-title.md`
+- [ ] Submit merge request to begin discussion period
+- [ ] Engage with community feedback
+- [ ] Await decision after discussion closes
 
 ---
 
@@ -108,10 +96,5 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 This proposal follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
-Requests for comments require active consensus — see the
-[handbook](https://handbook.omnifi.foundation/engineering/architecture/rfcs/) for
-details.
-
----
-
-/label ~"rfc" ~"architecture" ~"needs discussion"
+See the [handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/)
+for process details.

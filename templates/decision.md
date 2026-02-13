@@ -1,12 +1,11 @@
-# Architecture decision record
+# Decision
 
 <!--
 This template helps create proposals for technical and organisational decisions.
-Architecture decision records are for internal decisions about how Minttu is
-built, structured, and maintained. For community-facing changes, use the request
-for comments template instead.
+Decisions record internal choices about how Minttu is
+built, structured, and maintained. For community-facing changes, use the comment template instead.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -15,7 +14,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 <!-- A clear, descriptive title for the decision -->
 
 ### Number
-<!-- Sequential number: ADR-0001, ADR-0002, etc. -->
+<!-- Sequential number: 0001, 0002, etc. -->
 
 ### Status
 - [ ] Proposed (initial proposal)
@@ -122,7 +121,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 ## Next steps
 
-- [ ] Draft full proposal in `adrs/XXXX-title.md`
+- [ ] Draft full proposal in `decisions/XXXX-title.md`
 - [ ] Submit merge request for review
 - [ ] Address feedback from technical leads
 - [ ] Update status after decision
@@ -133,10 +132,10 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
-Architecture decision records use lazy consensus — see the
-[handbook](https://handbook.omnifi.foundation/engineering/architecture/adrs/) for
+Decisions use lazy consensus — see the
+[handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/) for
 details.
 
 ---
 
-/label ~"adr" ~"architecture" ~"technical"
+/label ~"decision" ~"architecture" ~"technical"

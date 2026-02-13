@@ -1,16 +1,16 @@
 ---
-name: Request for comments
+name: Comment
 about: Propose a community-facing change or feature for Minttu
-labels: rfc, architecture, needs discussion
+labels: comment, architecture, needs discussion
 ---
 
-# Request for comments
+# Comment
 
 <!--
 Use this template to propose community-facing changes and features for Minttu.
-After creating this issue, draft your full proposal using templates/rfc.md.
+After creating this issue, draft your full proposal using templates/comment.md.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/rfcs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -85,7 +85,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 ## Next steps
 
-- [ ] Draft full proposal in `rfcs/XXXX-title.md`
+- [ ] Draft full proposal in `comments/XXXX-title.md`
 - [ ] Submit merge request to begin discussion period
 - [ ] Engage with community feedback
 - [ ] Await decision after discussion closes
@@ -96,5 +96,5 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 This proposal follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
-See the [handbook](https://handbook.omnifi.foundation/engineering/architecture/rfcs/)
+See the [handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/)
 for process details.

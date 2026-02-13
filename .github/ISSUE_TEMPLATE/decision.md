@@ -1,16 +1,16 @@
 ---
-name: Architecture decision record
+name: Decision
 about: Propose a technical or organisational decision for Minttu
-labels: adr, architecture, technical
+labels: decision, architecture
 ---
 
-# Architecture decision record
+# Decision
 
 <!--
 Use this template to propose technical and organisational decisions for Minttu.
-After creating this issue, draft your full proposal using templates/adr.md.
+After creating this issue, draft your full proposal using templates/decision.md.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -70,7 +70,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 ## Next steps
 
-- [ ] Draft full proposal in `adrs/XXXX-title.md`
+- [ ] Draft full proposal in `decisions/XXXX-title.md`
 - [ ] Submit merge request for review
 - [ ] Address feedback from technical leads
 - [ ] Update status after decision
@@ -81,5 +81,5 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
-See the [handbook](https://handbook.omnifi.foundation/engineering/architecture/adrs/)
+See the [handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/)
 for process details.
